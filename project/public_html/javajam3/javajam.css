@@ -1,0 +1,33 @@
+body { background-color: #FFFFCC;
+       color: #330000;
+       font-family: Arial;
+       margin-left: 10%;
+       margin-right: 10%;
+       
+}
+
+h1 { background-color: #CCAA66;
+     color: #000000;
+     line-height: 200%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align:center;
+} 
+
+#nav { margin-left: auto;
+       margin-right: auto;
+       text-align:center;
+}
+
+#footer { background-color: #CCAA66;
+	  color: #000000;
+	  font-size: .60em;
+	  font-family: italics;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align:center;
+}
+
+
+dt { font-weight: bold;
+}

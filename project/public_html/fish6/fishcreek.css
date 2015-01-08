@@ -1,0 +1,56 @@
+
+/*#####################################################################
+  #  CISw320                                         Ryutaro Matsuda  #
+  #                                                    askvet.hetml   #
+  # class wed 17:30                                                   #
+  # ###################################################################
+  # date               edit                                           #
+  #####################################################################
+  # 2010/09/27         create askvet.html                             #
+  # 2010/10/10         CREATE fish 6                                  #
+  ###################################################################*/
+
+body { 
+	background-image: url(gradientblue.jpg);
+       color: #FFFFFF; 
+       font-family: Verdana, Arial, sans-serif; 
+
+}
+
+#container {  /*margin-left: auto;    
+       margin-right: auto;*/
+       width:700px;
+}
+
+#logo {  padding-left: 70px;
+}
+
+#leftcolumn{
+     float: left;
+     width: 140px;
+}
+
+#rightcolumn{
+     margin-left: 170px;
+}
+
+img { padding: 10px; }
+
+
+.category { font-weight: bold;
+            color: #003366; 
+            font-size: 1.1em;
+         
+}
+
+#footer { font-size: .70em;
+        font-style: italic;
+}
+
+a:link,hover{
+	color: #663366;
+}
+
+
+img { border:0;
+}

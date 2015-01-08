@@ -1,0 +1,153 @@
+body {
+     background-color: #736F6E;
+     color: #ffffff;
+     font-family: "century gothic", "verdana", sans-serif;
+     font-size: 13px;
+}
+
+.contena {
+     padding-right: 30px;
+     padding-left: 30px;
+     /*
+     width : 1000px;
+     height: 700px;*/
+}
+
+#f1 {
+     float:left;
+     width:200px;
+     height:220px;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-left: 10px;
+     margin-top:10px;
+      
+}
+
+#f2 {
+     float: left;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top: 10px;
+     margin-left: 10px;
+     width:200px;
+     height:220px;
+}
+
+#f3 {
+     float: left;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top:10px;
+     margin-left: 10px;
+     width:200px;
+     height:220px;
+}
+
+#f4 {
+     float: left;
+     width:200px;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top:10px;
+     margin-left: 10px;
+     height:220px;
+}
+#f5 {
+      float: left;
+     width:200px;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top:10px;
+     margin-left: 10px;
+     height:220px;
+}
+
+#f6 {
+      float: left;
+     width:200px;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top:10px;
+     margin-left: 10px;
+     
+     height:220px;
+}
+
+#f7 {
+      float: left;
+     width:200px;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top:10px;
+     margin-left: 10px;
+     height:220px;
+}
+
+#f11 {
+      float: left;
+     width:420px;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top:10px;
+     margin-left: 10px;
+     height:220px;
+}
+
+#f9 {
+      float: left;
+     width:200px;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top:10px;
+     margin-left: 10px;
+     height:220px;
+}
+#f8 {
+      float: left;
+     width:200px;
+     background-color: #736F6E;
+     border: 5px groove #4A4344;
+     margin-top:10px;
+     margin-left: 10px;
+     height:220px;
+}
+
+#f10 {
+      float: left;
+     width:210px;
+     background-color: #736F6E;
+     
+     margin-top:10px;
+     margin-left: 10px;
+     height:220px;
+}
+
+h3 {
+     text-align:center;
+     background-color: #565051
+}
+
+li,dt {
+     margin-left: 10px;
+}
+
+#back
+{    
+     float: right;
+     margin-top: 250px;
+}
+
+a:link, a:active {
+     color : #000000;
+     text-decoration : none;
+}
+a:hover {
+     color : #413839;
+     text-decoration : underline;
+}
+a:visited {
+     color : #34282C;
+     text-decoration : none;
+}
+

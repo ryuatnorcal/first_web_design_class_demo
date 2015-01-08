@@ -1,0 +1,90 @@
+
+/*#####################################################################
+  #  CISw320                                         Ryutaro Matsuda  #
+  #                                                    askvet.hetml   #
+  # class wed 17:30                                                   #
+  # ###################################################################
+  # date               edit                                           #
+  #####################################################################
+  # 2010/09/27         create askvet.html                             #
+  # 2010/10/10         CREATE fish 6                                  #
+  # 2010/10/29		   Added ch9                                      #
+  ###################################################################*/
+
+body { 
+	background-image: url(gradientblue.jpg);
+       color: #FFFFFF; 
+       font-family: Verdana, Arial, sans-serif; 
+
+}
+
+.labelCol{
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.myRow{
+	height: 30px;
+}
+
+.mySubmit{
+	margin-left: 110px;
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+
+table {
+		border: 2px solid #003366;
+		border-collapse: collapse;
+} 
+th,td{ 
+		padding: 10px;
+		border : 1px solid #003366; 
+}
+		
+#container {  /*margin-left: auto;    
+       margin-right: auto;*/
+       width:700px;
+}
+#movie{
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+#logo {  padding-left: 170px;
+}
+
+#leftcolumn{
+     float: left;
+     width: 140px;
+}
+
+#rightcolumn{
+     margin-left: 170px;
+}
+
+img { padding: 10px; }
+
+
+.category { font-weight: bold;
+            color: #003366; 
+            font-size: 1.1em;
+         
+}
+
+#footer { font-size: .70em;
+        font-style: italic;
+    	text-align:center;
+}
+
+a:link,hover{
+	color: #663366;
+}
+
+
+img { border:0;
+}

@@ -1,0 +1,236 @@
+CISW320 B stu045
+Ryutaro Matsuda    1266348
+=============================================================
+ TO VALIDATE YOUR WEB PAGES
+requires certain DOCTYPE lines at the top.
+Copy and paste these.  Do NOT try to type them. 
+==================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Your names date path/exact.filename -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+==================================================
+If the page requires "strict" use the lines below:
+If the page requires "transitional" use the lines above
+==================================================
+<?xml version="1.0" encoding="utf-8"?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--- Your name date    path/exact filename -->
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />  
+================================================== 
+Copy and paste!
+==========================================
+index.html     Due  Sept 2
+7/10     Sept 12  Oct 14
+title="link to Prim2"    prime 2
+title="link to Prim2" - still Oct 24
+title="link to Prim3"   prime 3 - still Oct 24
+ it should be ==>> title = home page
+	<title>Ryutaro Matsuda's First Page</title> - still Oct 24
+==========================================
+first.html  Due  Sept 2
+7/10     Sept 12 regraded final score  Oct 14
+has 2 errors transitional - still Oct 24
+not all done Oct 24
+
+good start - now follow the instructions in Desire 2 Learn to do the rest.
+==========================================
+java jam Chap 2 due Sept 16
+JavaJam 3       due Sept 23
+9/10  Oct 14  regraded Oct 24 - changes not made
+menu page
+Sewwtened  sweetened is correct
+ <dt><b>Just Java</b></dt> remove the <b> tags and put them in the CSS like this:
+dt{font-weight: bold}
+
+
+==========================================
+prime properties Chap 2 due Sept 16
+prime properties Chap 3 due Sept 23
+10/10   Oct 14 fixed Oct 24
+<a href="mailto:primeproperties@sample.com">primeproperties@sample.com</a>
+every link always needs a title
+==========================================
+Java Jam chap 4 with images due Sept 30
+10/10   Oct 14
+==========================================
+Fish Creek Chap 4 with images Due Sept 30
+6/10  transitional with a warning!  must be strict - Oct 24 Oct 28
+Oct 14  final score Oct 24
+<h1><img src="fishcreeklogo.gif" alt="Fish Creek Animal Hospital"  width="600" height="77" /></h1>   
+remove the <h1> since this is not text
++++++++++++++
+<div id="imgnav"><a href="index.html"><img src="home.gif" alt="Home" width="132" height="27" /></a> &nbsp;&nbsp;<a href="services.html"><img src="services.gif" alt="Services" width="132" height="27" /></a> &nbsp;&nbsp;<a href="askvet.html"><img src="askthevet.gif" alt="Ask the Vet" width="132" height="27"  /></a> &nbsp;&nbsp;<a href="contact.html"><img src="contact.gif" alt="contact" width="132" height="27"  /></a></div>
+++++++++++++++++
+make the lines above look like below:
+every link always needs a title  - still Oct 24
+++++++++++++++++
+<div id="imgnav">
+   <a href="index.html" title="link back home"><img src="home.gif" alt="Home" width="132" height="27" /></a> &nbsp;&nbsp;
+   <a href="services.html" title="link..."><img src="services.gif" alt="Services" width="132" height="27" /></a> &nbsp;&nbsp;
+   <a href="askvet.html" title="link..."><img src="askthevet.gif" alt="Ask the Vet" width="132" height="27"  /></a> &nbsp;&nbsp;
+   <a href="contact.html" title="link..."><img src="contact.gif" alt="contact" width="132" height="27"  /></a>
+</div>
+++++++++++++++++
+do the same at the bottom of the page
+
+==========================================
+==========================================
+Chapter 5 - answer questions and drop in drop box
+start your final project due Oct 7
+10/10  due Oct 7
+==========================================
+Chap 5 put your own photo onto your home page with CSS
+9/10   Due Oct 7  Oct 14
+<title>Ryutaro Matsuda's First Page</title>
+this is your Home page ^^^^^^^^ not first page
+Java Jam 6 is missing the m
+==========================================
+Java Jam chap 6 columns and nav on left Oct 14
+8/10  Oct 14  Oct 24
+
+ <dt><b>Just Java</b></dt>
+the <b> above goes into the CSS like this:
+dt{font-weight: bold}
+the images linked to on the music page need to be the large ones
+make the same corrections you made on jj4
+
+==========================================
+Fish Creek chap 6 columns and nav on left due Oct 14
+9/10  Oct 14
+Oct 28 valid strict
+ <small>
+               <em>
+
+small and em go into the CSS
+========================================
+
+==========================================
+Favorites part A - chap 7  due Oct 21
+10/10   Oct 24
+Oct 28
+<!-- Ryutaro Matsuda 2010/09/01 /~cisw320b_stu045/index.html -->
+fix the comment tag then make favs 2
+
+==========================================
+Favorites part B - chap 7  due after Favorites 
+Part A has been graded and corrected with score 10/10
+8/10  Dec 14
+2 links from top to 2 diff lists near bottom- OK
+1 link from bottom to very top - impossible to do on your page 
+      because you have no top location
+2 links from bottom to 2 lists near top- OK
+1 link from bottom to list in middle-OK
+link back home -OK
+link to email- OK
+
+==========================================
+==========================================
+Tables - chap 8 java Jam  due Oct 28
+8/10  Nov 23
+<!-- Ryutaro Matsuda Sep 27, 2010 index.html-->
+should read:
+<!-- Ryutaro Matsuda Sep 27, 2010 java8/index.html-->
+change "sample" to "ryutaro"
+menu page
+<th><b>Just Java</b></th>
+remove the <b> tag from the page because all <th> are normally bold
+ <table cellpadding="10px"> cellpadding is not strict
+it belongs in the css file
+music page links to the wrong images - link to the big ones
+<!-- Ryutaro Matsuda Sep 27, 2010 music.html-->
+<!-- Ryutaro Matsuda Sep 27, 2010    java8/music.html-->
+
+==========================================
+Tables - chap 8 your own home page due Oct 28
+5/5   your home page with a CSS and table
+Dec 14
+==========================================
+Tables - chap 8 Fish Creek  due Oct 28
+3/10  Nov 23
+is transitional and must be strict - Dec 14
++++++++++++++
+     <div id="leftcolumn">
+
+          <a href="index.html"><img src="home.gif" alt="Home" width="132" height="27" /></a>
+          <a href="services.html"><img src="services.gif" alt="Services" width="132" height="27" /></a>
+          <a href="askvet.html"><img src="askthevet.gif" alt="Ask the Vet" width="132" height="27"  /></a>
+          <a href="contact.html"><img src="contact.gif" alt="contact" width="132" height="27"  /></a>
++++++++++++++++++
+<a href="index.html">Home</a> &nbsp;&nbsp;<a href="services.html">Services</a> &nbsp;&nbsp;
+               <a href="askvet.html">Ask the Vet</a> &nbsp;&nbsp;<a href="contact.html">Contact</a><br />
++++++++++++++++++
+every link always needs a title
+this page has 2 sets of links and none of them have titles
+<a href="mailto:Ryutaro@matsuda.com" title="Contact US!!">Ryutaro@matsuda.com</a>
+use: <a href="mailto:Ryutaro@fishcreek.com" title="Email us">Ryutaro@fishcreek.com</a>
+
+==========================================
+Forms - chap 9 - music survey form Nov 4
+6/10  Nov 23
+make this "strict"
+
+it will not allow multiple locations - Dec 14
+==========================================
+Forms - chap 9 - Java Jam form due Nov 4
+8/10   Nov 23  Dec 14
+<label class="labelCol">Name :</label>
+     		<input type="text" name="myName" />
+each label needs a for= - still Dec 14
+
+==========================================
+Forms - chap 9 - Fish Creek form due Nov 4
+6/10   Nov 23
+transitional Dec 14
+this form has the submit button on top of the comments box.
+<label class="labelCol">Name : </label>
+   			<input type="text" name="myName" />
+every label must have for=
+all links must have titles - Dec 14 
+
+==========================================
+Chapter 10 exercises from the book due Nov 11
+10/10
+==========================================
+Multimedia - chap 11  due  Nov 18
+5/10   Java Jam  Nov 23
+invalid code Dec 14
+loop="faluse"    false
+needs a target on your home page
+<!-- Ryutaro Matsuda Sep 27, 2010 index.html-->
+<!-- Ryutaro Matsuda Sep 27, 2010    java11/index.html-->
+<embed src="javajamlogo.swf" quality="high" width="620" 
+height="117"/>  needs space before />
+     <th><b>Just Java</b></th>
+this page has the same problems as above
+music page links to too small images
+<!-->  visible on screen
+no flash on any but home page
+Greg's music is corrupt file
+==========================================
+Multimedia - chap 11  due  Nov 18
+5/10   Fish Creek  NOV 23  Dec 14
+needs a target on home page
+is missing the flash logo on all but the home page
+transitional and must be strict
+sparky movie is corrupt and stops
+==========================================
+Final Project Site Map and Storyboard due
+/10    Thursday, Dec 2
+==========================================
+Final Project due Thursday, Dec 9
+/20
+==========================================
+Percent today  82.4%  "B" before final exam and project
+
+homework  167/209
+quizzes   212/240
+
+
+

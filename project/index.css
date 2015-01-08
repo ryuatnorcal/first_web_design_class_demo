@@ -1,0 +1,128 @@
+body{
+	font-family: "century gothic, verdana", sans-serif;
+	color:#000000;
+	font-size:12px;
+}
+
+.head{
+	background-color:#000000;
+	color:#FFFFFF;
+	height: 30px;
+}
+.jap{
+	text-align: right;
+	padding-top:5px;
+	padding-right:10px;
+}
+
+#logo{
+	padding-left: 30px;
+}
+.containa{
+
+    margin-right: 100px;
+    margin-left: 100px;
+    border:1px solid #000000;
+}
+.menu{
+    background-color: #000000;
+    margin-top:5px;
+	height: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 15px;
+	/*padding-top: 5px;*/
+	padding-right:25px;
+	padding-left:25px;
+}
+table{
+	padding:10px;
+	text-align: center;
+}
+td{
+	padding-left:10px;
+    padding-right: 10px;
+	font-size:15px;
+	text-align: center;
+}
+.pic{
+    margin-top: 5px;
+    height:  400px;
+    background-image: url("programming.jpg");
+    background-color:#000000;
+}
+ 
+.contents{
+ 
+}
+ 
+.leftColum{
+    background-color:#ffffff;
+    color:#000000;
+    float: left;
+    margin-top:5px;
+    width : 350px;
+    height: 300px;
+    border-top:1px solid #000000;
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+}
+.rightColum{
+    background-color:#ffffff;
+    margin-top: 5px;
+    color:#000000;
+    float: right;
+    width:350px;
+    height: 300px;
+    border-bottom:1px solid #000000;
+    border-top:1px solid #000000;
+    border-left:1px solid #000000;
+}
+
+.centerColum{
+    background-color:#ffffff;
+    margin-top: 5px;
+    color:#000000;
+    padding-left: 170px;
+    height: 300px;
+    border:1px solid #000000;
+}
+.footer{
+    height:30px;
+    background-color:#ffffff;
+    color:#000000;
+    text-align: center; 
+    font-size:10px;
+}
+
+h5{
+    text-align: right;
+}
+h4{
+    height:30px;
+    padding-top: 10px;
+    background-color:#000000;
+    color:#ffffff;
+    padding-left:15px;
+    border:1px solid #ffffff;
+}
+p{
+	padding:10px;
+}
+
+a:link, a:active {
+color : #999999;
+font-weight: bold;
+text-decoration : none;
+}
+a:hover {
+background-color:#ffffff;
+color: #999999;
+font-weight: bold;
+text-decoration : underline;
+}
+a:visited {
+color : #999999;
+font-weight: bold;
+text-decoration : none;
+}

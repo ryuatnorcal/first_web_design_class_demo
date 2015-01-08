@@ -1,0 +1,94 @@
+/*#############################################################
+  # CISW320                                     javajam.css   #
+  #                                          Ryutaro Matsuda  #
+  # class : Wed 17:15                                         #
+  #############################################################
+  # date               edit                                   #
+  #############################################################
+  # 2010/09/27         add h3 style rule                      #
+  #                    delete h1 style rule                   #
+  # 2010/10/10         add java6                              #
+  ###########################################################*/
+
+body { background-color: #FFFFCC;
+       background-image: url('background.gif');
+       color: #330000;
+       font-family: Arial;
+       margin-left: 10%;
+       margin-right: 10%;
+       
+}
+#logo {background-color: #CCAA66;
+       color:#000000;
+       border-bottom: 2px double #000000;/*error here */
+       display: block;
+       text-align:center;
+}
+
+.container
+{
+      background-color: #E8D882;
+      color: #000000;
+      width: 80%;
+      border: 2px double #000000;
+      min-width: 700px;
+      
+}
+#leftcolumn{ 
+     float: left;
+     width: 100px;
+     padding-top: 10px;
+}
+#rightcolum{
+     
+     margin-left: 150px;
+     background-color: #F1E8B0;
+     color: #000000;
+     padding: 10px;
+}
+
+.floatright{
+     padding-left: 40px;
+     float:right;
+}
+
+h3 { background-color: #FFFFCC;
+     text-transform: uppercase;
+     color: #663300;
+     font-size: 20px;
+     border-bottom: 1px solid #000000;
+     margin-right: 20px;
+     
+} 
+
+.navbar { margin: 15px;
+       display: block;
+       text-decoration: none;
+}
+
+#footer { background-color: #CCAA66;
+	  color: #000000;
+	  font-size: .60em;
+	  font-family: italics;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align:center;
+       border-top: 2px double #000000;
+}
+
+.content {
+       padding-right: 20%;
+       padding-left: 20%;
+       border-style: none;
+}
+
+.photos {
+       width:100px;
+       height:97px;
+       float:right;
+       margin-right:200px;
+}
+
+dt{
+	font-weight: bold
+}

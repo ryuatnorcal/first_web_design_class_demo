@@ -1,0 +1,29 @@
+body { background-color: #FFFFCC;
+       color: #003300;
+       font-family: Arial,Helvetica,sans-serif;
+}
+
+h2 { background-color: #FFFFCC;
+     color: #003366;
+}
+
+h4 { background-color: #FFFFCC;
+     color: #006600;
+}
+
+dd { font-family: italic;
+     font-size: small;
+     line-height: 200%;
+}
+
+logo { background-color: #FFFFCC;
+       color: #48751A;
+}
+#nav { font-weight: bold;
+       font-size: small;
+       font-family: "Times New Roman",sans-serif;
+}
+#footer { font-size: .60em;
+	  font-family: italic;
+}
+       

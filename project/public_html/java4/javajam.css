@@ -1,0 +1,79 @@
+/*#############################################################
+  # CISW320                                     javajam.css   #
+  #                                          Ryutaro Matsuda  #
+  # class : Wed 17:15                                         #
+  #############################################################
+  # date               edit                                   #
+  #############################################################
+  # 2010/09/27         add h3 style rule                      #
+  #                    delete h1 style rule                   #
+  # 2010/10/15         removed h3 rule                        #
+  # 2010/10/15         added img_logo rule                    #
+  # 2010/10/15         added dt rule                          #  
+  # 2010/10/20         added h3 rule                          #
+  ###########################################################*/
+
+body { background-color: #FFFFCC;
+       background-image: url('background.gif');
+       color: #330000;
+       font-family: Arial;
+       margin-left: 10%;
+       margin-right: 10%;
+       
+}
+h3 {
+	background-color: #CCAA66;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.logo {background-color: #CCAA66;
+     padding-left: 10px;
+     padding-bottom: 5px;
+     display: block;
+     margin: auto;
+     text-align:center;
+}
+
+
+.contbg
+{
+      background-color: #FFFFCC;
+}
+
+.img_logo { background-color: #CCAA66;
+     padding-left: 10px;
+     padding-bottom: 5px;
+     
+} 
+dt{ 
+     font-weight: bold;
+}
+
+.nav { margin-left: auto;
+       margin-right: auto;
+       text-align:center;
+}
+
+#footer { background-color: #CCAA66;
+	  color: #000000;
+	  font-size: .60em;
+	  font-family: italics;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align:center;
+}
+
+.content {
+       padding-right: 20%;
+       padding-left: 20%;
+       border-style: none;
+}
+
+.photos {
+       width:100px;
+       height:97px;
+       float:right;
+       margin-right:200px;
+}
+	

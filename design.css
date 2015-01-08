@@ -1,0 +1,130 @@
+
+body{
+	font-family: Arial;
+	font-size: 12px; 
+}
+tbody{
+	padding-left:50px;
+}
+table{
+	font-family: Arial;
+	font-size: 12px; 
+}
+#wrapper{
+	width:60%;
+	min-height:550px;
+	margin: 100px auto 30px auto;
+	border: solid 1px #000000;
+}
+#login{
+	width:100%;
+	margin:50px auto 30px auto;
+	float:left;
+}
+#cont_wrap{
+	width:100%;
+	margin: 65px 0 10px 0;
+}
+#left{
+	background:#000000;
+	color:#ffffff;
+	width:25%;
+	min-height:436px;
+	float:left;	
+}
+#left h1{
+	padding:5px 5px 5px 20px;
+	background:#ffffff;
+	color:#000000;
+}
+#left li a{
+	color: #FFFFFF;
+	text-decoration:none;
+}
+#left li{
+	padding-top: 45px; 
+	list-style-type: none; 
+}
+#right{
+	width: 73%;
+	min-height:436px;
+	float:left;
+	padding-left: 10px;
+}
+#right h1{
+	padding:5px;
+	background:#000000;
+	color:#ffffff;
+}
+#submenu li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+#login_form{
+	width: 50%;
+	margin: 10% auto auto auto;
+}
+#contents{
+	width:100%;
+}
+#contents td{
+	margin: 10px;
+}
+
+#header{
+	width:100%;
+	border-bottom: solid 1px #000000;
+	float:left;
+}
+#footer{
+	width:100%;
+	border-top: solid 1px #000000;
+	float:left;
+}
+#popupClose{
+	font-size:20px;
+	float:right;
+	margin-bottom:10px;
+	
+}
+#blog_wrapper{
+	margin-top:30px;
+}
+#bkpopup{
+	display:none; 
+	opacity: 0.7; 
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6*/  
+	height:100%;  
+	width:100%;  
+	top:0;  
+	left:0;  
+	background:#000000;  
+	border:1px solid #cecece;  
+	z-index:3;  
+}
+#popup{
+	display:none; 
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/  
+	min-height:345px;
+	max-height:450px;
+	width:35%;  
+	background:#FFFFFF;  
+	border:2px solid #cecece;  
+	z-index:4;  
+	padding:12px;  
+	font-size:13px;  
+	overflow:auto;
+	scrollbar-face-color: #CE7E00;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-highlight-color: #6F4709;
+	scrollbar-3dlight-color:#000000;
+	scrollbar-darkshadow-color: #6F4709;
+	scrollbar-track-color: #FFE8C1;
+	scrollbar-arrow-color: #6F4709;
+}
+#blog_wrap{
+	width:100%;
+}
