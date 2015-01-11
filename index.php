@@ -45,7 +45,7 @@
 			if(empty($id)){$id=$_GET['i'];}
 
 	// MAIL FORM VARIABLES 
-			$mailto = "world.wide.ninja.japan@gmail.com";
+			$mailto = "rmatsuda686@gmail.com";
 			$fullName=$_POST['fullName'];
 			$firstName=$_POST['firstName'];
 			$lastName=$_POST['lastName'];
@@ -159,7 +159,7 @@
 					<p> This web page is my promotion web page </p>
 <?php
 				$SQL=openSQL();
-				mysql_select_db("mizmonet_mainblog", $SQL);
+				mysql_select_db("ryuatnor_blog", $SQL);
 				$result = mysql_query("SELECT * FROM blog ORDER BY time DESC LIMIT 0,10");
 ?>
 		
@@ -331,7 +331,7 @@
 	function erase_blog($id,$title,$article)
 	{
 		$SQL=openSQL();
-		mysql_select_db("mizmonet_mainblog", $SQL);
+		mysql_select_db("ryuatnor_blog", $SQL);
 		$result = mysql_query("SELECT * FROM blog ORDER BY time DESC");
 		if(empty($id))
 		{
@@ -407,7 +407,7 @@
 	{
 		
 		$SQL=openSQL();
-		mysql_select_db("mizmonet_mainblog", $SQL);
+		mysql_select_db("ryuatnor_blog", $SQL);
 		$result = mysql_query("SELECT * FROM blog ORDER BY time DESC");
 		if(empty($id))
 		{
@@ -487,7 +487,7 @@
 					<th colspan='2'><input class="input" size='71' id='blogtitle' name='blogtitle' type='text' value="<?= $row['title']; ?>" /></th>
 				</tr>
 				<tr>
-					<th colspan='2'><textarea class="input" id='article' name='article' rows='8' cols='55' ><?php echo $row['article']; ?></textarea></th>
+					<th colspan='2'><textarea class="input" id='article' name='article' rows='8' cols='55' value="<?= $row['article']; ?>"></textarea></th>
 				</tr>
 				<tr>
 					<td><input type="submit" value="Post !! " /></td>
@@ -566,7 +566,7 @@
 		{	
 			$SQL= openSQL();				
 			if (!$SQL){	die('Could not connect: ' . mysql_error());	}
-			mysql_select_db("mizmonet_mainblog", $SQL);
+			mysql_select_db("ryuatnor_blog", $SQL);
 			$article = html_to_SQL($article);
 			
 			$user_db = "INSERT INTO blog (article,title) VALUES ('$article','$title')";
@@ -607,7 +607,7 @@
 	function list_blog()
 	{
 		$SQL=openSQL();
-		mysql_select_db("mizmonet_mainblog", $SQL);
+		mysql_select_db("ryuatnor_blog", $SQL);
 		$result = mysql_query("SELECT * FROM blog ORDER BY time DESC");
 ?>
 		<div id="contents">
@@ -658,7 +658,7 @@
 		$SQL = openSQL();
 		// create table 
 		if (!$SQL){	die('Could not connect: ' . mysql_error());	}
-		mysql_select_db("mizmonet_mainblog", $SQL);
+		mysql_select_db("ryuatnor_blog", $SQL);
 		mysql_query("DROP TABLE blog",$SQL);		// when you need to drop the table user this line
 		
 		
@@ -675,7 +675,7 @@
 		if(!mysql_query($SQLtable,$SQL)){die('Error 1: ' . mysql_error());}
 		else{ echo "table user has created <BR />"; }
 		
-		mysql_select_db("mizmonet_mainblog", $SQL);
+		mysql_select_db("ryuatnor_blog", $SQL);
 		mysql_query("DROP TABLE microposts",$SQL); 	// when you need to drop the table user this line 
 		
 		$SQLtable = "CREATE TABLE microposts
@@ -696,10 +696,10 @@
 	}
 	function openSQL()
 	{
-		$SQLhost="mizmo.net";
-		$SQLuser="mainblog";
-		$SQLpw="sky306";
-		$SQLdatabase="mizmonet_mainblog";
+		$SQLhost="localhost";
+		$SQLuser="ryuatnor_admin";
+		$SQLpw="abcdefg";
+		$SQLdatabase="ryuatnor_blog";
 		
 		$SQL_connect = mysql_connect($SQLhost,$SQLuser,$SQLpw);
 		return $SQL_connect;
@@ -717,7 +717,7 @@ function html_to_SQL($string)
 	$s = htmlspecialchars($string,ENT_QUOTES);
 	//$s = html_entity_decode($string);
 	print $s;
-	//return $s;
+	return $s;
 }
 function SQL_to_html($string)
 {
@@ -746,7 +746,7 @@ function htmlEncodeText($string)
 				$user_email;
 				$title;
 				$msg;
-				$email = "world.wide.ninja.japan@gmail.com";
+				$email = "rmatsuda686@gmail.com";
 				if(empty($user_email))
 				{
 ?>

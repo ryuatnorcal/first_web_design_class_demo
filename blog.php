@@ -11,7 +11,7 @@ function blog()
 function testSQL()	// HERE IS TEST AREA
 {
 		$SQL=openSQL();
-		mysql_select_db("mizmonet_mainblog", $SQL);
+		mysql_select_db("ryuatnor_blog", $SQL);
 		$result = mysql_query("SELECT * FROM blog");
 ?>
 		<table style="width:100%;">
@@ -50,7 +50,7 @@ function testSQL()	// HERE IS TEST AREA
 		$SQL = openSQL();
 		// create table 
 		if (!$SQL){	die('Could not connect: ' . mysql_error());	}
-		mysql_select_db("mizmonet_mainblog", $SQL);
+		mysql_select_db("ryuatnor_blog", $SQL);
 		//mysql_query("DROP TABLE blog",$SQL);		// when you need to drop the table user this line
 		
 		
@@ -92,10 +92,10 @@ function testSQL()	// HERE IS TEST AREA
 	}
 	function openSQL()
 	{
-		$SQLhost="mizmo.net";
-		$SQLuser="mainblog";
-		$SQLpw="sky306";
-		$SQLdatabase="mizmonet_mainblog";
+		$SQLhost="localhost";
+		$SQLuser="ryuatnor_admin";
+		$SQLpw="abcdefg";
+		$SQLdatabase="ryuatnor_blog";
 		
 		$SQL_connect = mysql_connect($SQLhost,$SQLuser,$SQLpw);
 		return $SQL_connect;
